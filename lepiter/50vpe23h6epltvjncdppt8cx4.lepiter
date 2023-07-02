@@ -1,0 +1,113 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-07-02T15:45:14.832-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-07-02T15:45:19.2-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "gHiaBui7DQC5Yq/NA4beVA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Imagine we have a parent and a child. Both of them have attached drag handlers. If child does not consume drag start event, then both parent and child will start dragging, even though the drag gesture began over child. I would expect only child to be dragged.\nSplitting it in before, handle and after does not solve consumed: problem.\n\nHowever, I see this as an interesting concept. Would be actually nice to find some real usecases.\nSee also https://twitter.com/feenkcom/status/955346855155654656 (edited)\n\nfeenk (@feenkcom)\nDebugging drag and drop while working on #GToolkit Diagrammer: the inspector offers a log of events for an element; selecting an event allows us to dig deeper into the event propagation. #bloc @pharoproject\n\n\nTwitter\n\nstephan — 02/04/2018 3:45 PM\nIt was used to dis- and enable actions and influence the event bubbling\n\nDeleted User — 02/04/2018 3:51 PM\n@stephan aha, in bloc there is a concept of event filters. First events are propagated top to bottom (blue line) and are handled by event filters. if filter consumes event it stops propagating. during bubbling step (red line) it goes from the bottom to the top. the same idea applies here, if event gets consumed, propagation stops.\n\nEvent filter: consume to prevent children from receiving event\nEvent handler: consume to prevent parents from reveiving event\n\nEvent handling in bloc is implemented according to event management specification in web (it tends to be at leas"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-07-02T15:45:07.951-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-07-02T15:45:07.951-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "mHkxBui7DQC5YfLCA4beVA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : ""
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2023-07-02T15:45:14.813-04:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2023-07-02T15:45:14.813-04:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "event handling in bloc"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "68043106-e8bb-0d00-b960-d6760386de54"
+	}
+}
