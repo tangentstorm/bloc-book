@@ -8,45 +8,7 @@
 				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
-					"items" : [
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-07-02T17:23:49.257-04:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-07-02T17:25:17.204-04:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "QGshZ+m7DQC+hCLTA4beVA=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "[[Foundations of Bloc]] [[drawing an image in bloc]] [[RSAnimationExamples port]] [[Line Plots]] [[Unicode Issues]]"
-						}
-					]
+					"items" : [ ]
 				},
 				"createEmail" : {
 					"__type" : "email",
@@ -56,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-07-02T17:25:17.201-04:00"
+						"dateAndTimeString" : "2023-07-03T00:25:20.23-04:00"
 					}
 				},
 				"editEmail" : {
@@ -67,17 +29,51 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-07-02T17:25:17.201-04:00"
+						"dateAndTimeString" : "2023-07-03T00:35:21.456-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "mFJfbOm7DQC/DoY8A4beVA=="
+					"uidString" : "cA6XSu+7DQCM/kBBA4beVA=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[Bloc Notes]]"
+				"string" : "Bloc already handles and distributes events to all children in the graphical scene. It also takes care of groups and compositions dor you 🙂 You can even distinguish elements by their identity (ID). Consider the following example:  -- syrel"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-07-03T00:23:38.264-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-07-03T00:23:41.099-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "wC2DRO+7DQCM+IIjA4beVA=="
+				},
+				"code" : "positions := 100 timesCollect: [ 500 atRandom @ 500 atRandom ].\n\ndots := positions collect: [ :eachPosition |\n    BlElement new\n        geometry: BlCircle new;\n        background: (Color red alpha: 0.6);\n        size: 12@12;\n        relocate: eachPosition - (6@6);\n        when: BlClickEvent do: [ :anEvent |\n            \"we consume click event to prevent it propagating to the parent\"\n            anEvent consumed: true.\n            \"current target is an element to which an event handler is attached\"\n            anEvent currentTarget background: (Color blue alpha: 0.6) ];\n        when: BlMouseEnterEvent do: [ :anEvent |\n            anEvent currentTarget border: (BlBorder paint: Color darkGray width: 2) ];\n        when: BlMouseLeaveEvent do: [ :anEvent |\n            anEvent currentTarget border: BlBorder empty ] ].\n    \ncontainer := BlElement new\n    constraintsDo: [ :c |\n        c horizontal matchParent.\n        c vertical matchParent ];\n    addChildren: dots.\ncontainer"
 			},
 			{
 				"__type" : "textSnippet",
@@ -93,7 +89,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-07-02T17:40:22.612-04:00"
+						"dateAndTimeString" : "2023-07-03T00:23:32.351-04:00"
 					}
 				},
 				"editEmail" : {
@@ -104,54 +100,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-07-02T17:40:22.612-04:00"
+						"dateAndTimeString" : "2023-07-03T00:23:32.351-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "INRWoum7DQCByxZ1A4beVA=="
+					"uidString" : "GPQoRO+7DQCM986vA4beVA=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[Brick Notes]]"
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-07-02T17:22:47.822-04:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-07-02T17:40:22.619-04:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "sAJ4Y+m7DQC+I8zhA4beVA=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "[[Brick and Bloc]][[How Do Context Menus Work?]]"
+				"string" : ""
 			}
 		]
 	},
@@ -163,7 +122,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2023-07-02T17:22:37.268-04:00"
+			"dateAndTimeString" : "2023-07-03T00:24:54.26-04:00"
 		}
 	},
 	"editEmail" : {
@@ -174,15 +133,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2023-07-02T17:22:37.268-04:00"
+			"dateAndTimeString" : "2023-07-03T00:24:54.26-04:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Bloc Book"
+		"title" : "currentTarget"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "88328562-e9bb-0d00-be15-e6c10386de54"
+		"uuid" : "10a22844-efbb-0d00-8cf6-f1110386de54"
 	}
 }

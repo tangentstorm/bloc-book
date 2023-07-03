@@ -1,0 +1,218 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-07-03T01:44:35.503-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-07-03T01:47:54.74-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "mMMGZvC7DQCNOO9OA4beVA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "this was my (tangentstorm's) first post to #bloc on pharo discord: (modified slightly to run in a space for gt) 4/13/2021"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-07-03T01:44:57.965-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-07-03T01:47:12.099-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "+HldZ/C7DQCOhGx9A4beVA=="
+				},
+				"code" : "\"animation and keyboard handler demo\"\rspace := BlSpace new extent: 640@480.\nroot := space root  size:(640@480); background: (Color black).\n\nhero := BlElement new size:(64@64); relocate: (286@186);\n  geometry: BlCircle new; background: Color white; \n  addEventHandler: (BlPullHandler new disallowOutOfBounds);\n  addAnimation: (BlAnimation new\n    when: BlAnimationStepEvent do: [:p |\n      hero background: Color random];\n    beInfinite).\n\ndxy := 0@0. speed := 10.\nroot \n  addAnimation: (BlAnimation new\n    when: BlAnimationStepEvent do: [:p|\n      (dxy = (0@0)) ifFalse: [hero relocate: hero position + dxy ]];\n      beInfinite);\n  when: BlKeyDownEvent do: [ :evt | |c|\n    c := evt key name.\n    c = 'S' ifTrue: [ hero geometry: BlSquare new].\n    c = 'ArrowUp' ifTrue: [ dxy := (dxy x) @ (speed * -1)].\n    c = 'ArrowDown' ifTrue: [ dxy := (dxy x) @ speed].\n    c = 'ArrowLeft' ifTrue: [ dxy := (speed * -1) @ (dxy y)].\n    c = 'ArrowRight' ifTrue: [ dxy := speed @ (dxy y)]];\n  when: BlKeyUpEvent do: [ :evt | |c|\n    c := evt key name.\n    c = 'ArrowUp' ifTrue: [ dxy := (dxy x) @ 0].\n    c = 'ArrowDown' ifTrue: [ dxy := (dxy x) @0].\n    c = 'ArrowLeft' ifTrue: [ dxy := 0 @ (dxy y)].\n    c = 'ArrowRight' ifTrue: [ dxy := 0 @ (dxy y)]];\n  when: BlMouseDownEvent do: [:evt|\n    root requestFocusDueTo: BlFocusUnknownReason uniqueInstance].\n\nroot requestFocusDueTo: BlFocusUnknownReason uniqueInstance.\nroot addChild: hero. \rspace show"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-07-03T01:48:51.343-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-07-03T01:48:58.211-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "mJJGdfC7DQCRF1OmA4beVA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "martin dias replied with this refactoring:"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-07-03T01:49:05.787-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-07-03T01:49:44.307-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "kPQidvC7DQCR9mb6A4beVA=="
+				},
+				"code" : "space := BlSpace new.\n\nhero := BlElement new\n    size: 64@64;\n    relocate: 286@186;\n    geometry: BlCircleGeometry new;\n    background: Color white; \n    addEventHandler: BlPullHandler new disallowOutOfBounds;\n    addAnimation: (BlAnimation new\n        when: BlAnimationStepEvent do: [ :p |\n            hero background: Color random ];\n        beInfinite;\n        yourself).\n\ndxy := 0@0.\nspeed := 10.\n\nkeyDownBlockByKey := {\n    BlKeyboardKey s -> [ hero geometry: BlRectangleGeometry new ].\n    BlKeyboardKey arrowUp -> [ dxy := dxy x @ speed negated ].\n    BlKeyboardKey arrowDown -> [ dxy := dxy x @ speed ].\n    BlKeyboardKey arrowLeft -> [ dxy := speed negated @ dxy y ].\n    BlKeyboardKey arrowRight -> [ dxy := speed @ dxy y ].\n} asDictionary.\n\nkeyUpBlockByKey := {\n    BlKeyboardKey arrowUp -> [ dxy := dxy x @ 0 ].\n    BlKeyboardKey arrowDown -> [ dxy := dxy x @ 0 ].\n    BlKeyboardKey arrowLeft -> [ dxy := 0 @ dxy y ].\n    BlKeyboardKey arrowRight -> [ dxy := 0 @ dxy y ].\n} asDictionary.\n\nspace root\n    addChild: hero;\n    background: Color black;\n    addAnimation: (BlAnimation new\n        when: BlAnimationStepEvent do: [ :p |\n            dxy isZero ifFalse: [\n                hero relocate: hero position + dxy ]];\n        beInfinite;\n        yourself);\n    when: BlKeyDownEvent do: [ :evt |\n        keyDownBlockByKey\n            at: evt key\n            ifPresent: [ :aBlock | aBlock value ] ];\n    when: BlKeyUpEvent do: [ :evt | |c|\n        keyUpBlockByKey\n            at: evt key\n            ifPresent: [ :aBlock | aBlock value ] ].\n\nspace\n    extent: 640@480;\n    \"host: BlOSWindowSDL2Host new;\"\n    show."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-07-03T01:44:28.37-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-07-03T01:44:28.37-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "UOyZZfC7DQCNN9q9A4beVA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : ""
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2023-07-03T01:44:35.495-04:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2023-07-03T01:44:35.495-04:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "\"halfway to a game engine\""
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "20779965-f0bb-0d00-8d36-ee350386de54"
+	}
+}

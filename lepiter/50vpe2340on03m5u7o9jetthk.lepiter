@@ -8,45 +8,7 @@
 				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
-					"items" : [
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-07-02T17:23:49.257-04:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-07-02T17:25:17.204-04:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "QGshZ+m7DQC+hCLTA4beVA=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "[[Foundations of Bloc]] [[drawing an image in bloc]] [[RSAnimationExamples port]] [[Line Plots]] [[Unicode Issues]]"
-						}
-					]
+					"items" : [ ]
 				},
 				"createEmail" : {
 					"__type" : "email",
@@ -56,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-07-02T17:25:17.201-04:00"
+						"dateAndTimeString" : "2023-07-03T02:24:07.979-04:00"
 					}
 				},
 				"editEmail" : {
@@ -67,17 +29,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-07-02T17:25:17.201-04:00"
+						"dateAndTimeString" : "2023-07-03T02:24:07.979-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "mFJfbOm7DQC/DoY8A4beVA=="
+					"uidString" : "+N9v8/C7DQCSx5TeA4beVA=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[Bloc Notes]]"
+				"string" : ""
 			},
 			{
 				"__type" : "textSnippet",
@@ -93,7 +55,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-07-02T17:40:22.612-04:00"
+						"dateAndTimeString" : "2023-07-03T02:23:39.761-04:00"
 					}
 				},
 				"editEmail" : {
@@ -104,17 +66,51 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-07-02T17:40:22.612-04:00"
+						"dateAndTimeString" : "2023-07-03T02:24:20.384-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "INRWoum7DQCByxZ1A4beVA=="
+					"uidString" : "aE3B8fC7DQCSvfkWA4beVA=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[Brick Notes]]"
+				"string" : "Deleted User — 12/14/2020 3:45 PM\r\noho!\r\nThis is some advanced feature 🙂 The first step towards animatable layouts"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-07-03T02:23:45.285-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-07-03T02:23:46.741-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "oJMV8vC7DQCSv6xNA4beVA=="
+				},
+				"code" : "icon := BrGlamorousVectorIcons transcript asElement.\r\nicon constraintsDo: [ :c | c accountTransformation ].\r\n\r\ne := BlElement new\r\n    background: Color white;\r\n    border: (BlBorder paint: Color gray width: 1);\r\n    geometry: (BlRoundedRectangleGeometry cornerRadius: 4);\r\n    padding: (BlInsets top: 5 left: 10 bottom: 5 right: 10);\r\n    layout: (BlZoomableLayout new addLayout: BlFrameLayout new; defaultScale: 2; animationDuration: 1 second);\r\n    constraintsDo: [ :c |\r\n        c vertical fitContent.\r\n        c horizontal fitContent ];\r\n    addChild: icon;\r\n    yourself"
 			},
 			{
 				"__type" : "textSnippet",
@@ -130,7 +126,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-07-02T17:22:47.822-04:00"
+						"dateAndTimeString" : "2023-07-03T02:23:32.537-04:00"
 					}
 				},
 				"editEmail" : {
@@ -141,17 +137,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-07-02T17:40:22.619-04:00"
+						"dateAndTimeString" : "2023-07-03T02:23:32.537-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "sAJ4Y+m7DQC+I8zhA4beVA=="
+					"uidString" : "qBJT8fC7DQCSvCepA4beVA=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[Brick and Bloc]][[How Do Context Menus Work?]]"
+				"string" : ""
 			}
 		]
 	},
@@ -163,7 +159,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2023-07-02T17:22:37.268-04:00"
+			"dateAndTimeString" : "2023-07-03T02:23:39.754-04:00"
 		}
 	},
 	"editEmail" : {
@@ -174,15 +170,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2023-07-02T17:22:37.268-04:00"
+			"dateAndTimeString" : "2023-07-03T02:24:07.971-04:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Bloc Book"
+		"title" : "zooming icon example"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "88328562-e9bb-0d00-be15-e6c10386de54"
+		"uuid" : "88c452f1-f0bb-0d00-92bb-a76a0386de54"
 	}
 }

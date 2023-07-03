@@ -1,0 +1,113 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-07-03T01:55:15.454-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-07-03T01:55:15.454-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "SKArjPC7DQCShtpzA4beVA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Damien Pollet — 05/11/2022 3:27 AM\nI tried making an element and giving it a geometry but I don't understand what it does\n[3:33 AM]\nI was trying to implement drawOnSpartaCanvas: as in the tutorial, because I want a few details compared to a basic polygon, e.g. small circles marking the vertices and their centroid, coloring the line with a gradient from first to last vertex… (edited)\n\nDamien Pollet — 05/11/2022 3:37 AM\nin your example, how do I independently control the scale of vertex positions, and the visual attributes (line width, vertex markers, that should have a fixed size in screen space whatever how much the polygon is scaled up)\n[3:39 AM]\nthere is support for affine transformations, but what's the point if I have to do computations myself on my array of vertices (edited)\n[3:41 AM]\nI would like to express dimensions in model coordinate space, or in screen space, or in the coordinate space of a particular element\n\nAliaksei Syrel — 05/11/2022 10:31 AM\n@Damien Pollet elements in Bloc do not live in the coordinate space of the window. I am not sure what you mean when you say\nI would like to express dimensions in screen space\n\nImagine you have a window with two panes that occupy horizontally 50% of the window. In the right pane you have your visualisation. What would being able to render in screen space mean here? Let's say in an element in the right pane you draw a circle with a center at 10@10 in screen space. Does it mean the circle should appear in the left pane with offset 10@10 from the top left corner of the window? it does not seem reusable or useful. That is why in Bloc elements live in their own local coordinate space.\n\n\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-07-03T01:54:54.464-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-07-03T01:55:15.466-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "AFzrivC7DQCSZUegA4beVA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "radius := 100.\ncenter := (radius @ (radius * 3 sqrt / 2)).\n\nvertices := (0 to: Float pi * 2 by: Float pi* 2 / 6) collect: [ :angle |\n    | x y |\n    x := angle cos * radius.\n    y := angle sin * radius.\n    (x@y) + center ].\n\npolygon := BlPolygon vertices: vertices.\n\nviz := BlSpartaElement new\n    size: center;\n    border: (BlBorder paint: Color gray);\n    transformDo: [ :t | t topLeftOrigin scaleBy: 2 ];\n    rendering: [ :aCanvas |\n        aCanvas transform\n            by: [ :t | t scaleBy: 0.5 ]\n            during: [\n                | aPath |\n                aPath := polygon buildPathOnSpartaCanvas: aCanvas.\n                aCanvas stroke\n                    width: 2;\n                    path: aPath;\n                    paint: Color blue;\n                    draw ] ];\n    yourself\n[10:32 AM]\n^^^ is an example how we can apply different scale when rendering parts of the element\n[10:33 AM]\nHowever, I advice against custom rendering and instead suggest to use element composition"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2023-07-03T01:55:04.709-04:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2023-07-03T01:55:04.709-04:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "coordinate spaces"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "c811eb8a-f0bb-0d00-9264-caa90386de54"
+	}
+}

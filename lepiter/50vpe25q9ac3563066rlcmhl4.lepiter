@@ -83,7 +83,45 @@
 				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
-					"items" : [ ]
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-07-02T17:22:47.822-04:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-07-02T17:40:22.619-04:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "sAJ4Y+m7DQC+I8zhA4beVA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "[[Brick and Bloc]][[How Do Context Menus Work?]]"
+						}
+					]
 				},
 				"createEmail" : {
 					"__type" : "email",
@@ -93,7 +131,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-07-02T17:22:47.822-04:00"
+						"dateAndTimeString" : "2023-07-02T17:40:22.612-04:00"
 					}
 				},
 				"editEmail" : {
@@ -104,23 +142,61 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-07-02T17:22:57.576-04:00"
+						"dateAndTimeString" : "2023-07-02T17:40:22.612-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "sAJ4Y+m7DQC+I8zhA4beVA=="
+					"uidString" : "INRWoum7DQCByxZ1A4beVA=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[Brick Notes]][[Brick and Bloc]][[How Do Context Menus Work?]]"
+				"string" : "[[Brick Notes]]"
 			},
 			{
 				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
-					"items" : [ ]
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-07-02T17:22:37.283-04:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-07-02T17:40:04.495-04:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "uDLXYum7DQC+F0cxA4beVA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "[[GT Questions]][[GT Charting]][[GTDiagrammer Exploration]][[Goal: Launch a new phlow]] [[custom browser]]"
+						}
+					]
 				},
 				"createEmail" : {
 					"__type" : "email",
@@ -130,7 +206,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-07-02T17:22:37.283-04:00"
+						"dateAndTimeString" : "2023-07-02T17:39:48.081-04:00"
 					}
 				},
 				"editEmail" : {
@@ -141,17 +217,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-07-02T17:22:42.297-04:00"
+						"dateAndTimeString" : "2023-07-02T17:40:02.173-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "uDLXYum7DQC+F0cxA4beVA=="
+					"uidString" : "gOlHoOm7DQCBqvJJA4beVA=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[GT Notes]][[GT Questions]][[GT Charting]][[GTDiagrammer Exploration]][[Goal: Launch a new phlow]] [[custom browser]]"
+				"string" : "[[GT Notes]]"
 			}
 		]
 	},

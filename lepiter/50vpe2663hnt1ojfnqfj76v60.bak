@@ -8,45 +8,7 @@
 				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
-					"items" : [
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-07-02T17:23:49.257-04:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-07-02T17:25:17.204-04:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "QGshZ+m7DQC+hCLTA4beVA=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "[[Foundations of Bloc]] [[drawing an image in bloc]] [[RSAnimationExamples port]] [[Line Plots]] [[Unicode Issues]]"
-						}
-					]
+					"items" : [ ]
 				},
 				"createEmail" : {
 					"__type" : "email",
@@ -56,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-07-02T17:25:17.201-04:00"
+						"dateAndTimeString" : "2023-07-03T00:13:06.075-04:00"
 					}
 				},
 				"editEmail" : {
@@ -67,17 +29,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-07-02T17:25:17.201-04:00"
+						"dateAndTimeString" : "2023-07-03T00:13:06.075-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "mFJfbOm7DQC/DoY8A4beVA=="
+					"uidString" : "eL3UHu+7DQCM66+FA4beVA=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[Bloc Notes]]"
+				"string" : ""
 			},
 			{
 				"__type" : "textSnippet",
@@ -93,7 +55,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-07-02T17:40:22.612-04:00"
+						"dateAndTimeString" : "2023-07-03T00:12:37.075-04:00"
 					}
 				},
 				"editEmail" : {
@@ -104,20 +66,20 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-07-02T17:40:22.612-04:00"
+						"dateAndTimeString" : "2023-07-03T00:12:37.075-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "INRWoum7DQCByxZ1A4beVA=="
+					"uidString" : "ODwaHe+7DQCM4aYCA4beVA=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[Brick Notes]]"
+				"string" : ""
 			},
 			{
-				"__type" : "textSnippet",
+				"__type" : "pharoSnippet",
 				"children" : {
 					"__type" : "snippets",
 					"items" : [ ]
@@ -130,7 +92,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-07-02T17:22:47.822-04:00"
+						"dateAndTimeString" : "2023-07-03T00:12:41.627-04:00"
 					}
 				},
 				"editEmail" : {
@@ -141,17 +103,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-07-02T17:40:22.619-04:00"
+						"dateAndTimeString" : "2023-07-03T00:12:43.577-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "sAJ4Y+m7DQC+I8zhA4beVA=="
+					"uidString" : "kK1fHe+7DQCM4/c9A4beVA=="
 				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "[[Brick and Bloc]][[How Do Context Menus Work?]]"
+				"code" : "| parent child |\nparent := BlElement new \n    geometry: BlRectangle new;\n    size: 100 asPoint;\n    background: (Color green alpha: 0.2);\n    border: (BlBorder paint: Color black width: 2);\n\n    yourself.\nchild := BlElement new\n    geometry: BlRectangle new;\n    background: (Color blue alpha: 0.7);\n    size: 20 asPoint;\n    yourself.\nparent addChild: child.\nparent \n    when: BlElementExtentChangedEvent\n    do: [ | e |\n        e := parent measuredExtent.\n        child relocate: e x * 0.3 @ 0  ].\nparent addAnimation: (BlNumberTransition  new \n    from: 100; \n    to: 300; \n    beInfinite; \n    duration: 2 seconds;\n        onStepDo: [ :t | parent size: t asPoint ]).\nparent."
 			}
 		]
 	},
@@ -163,7 +122,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2023-07-02T17:22:37.268-04:00"
+			"dateAndTimeString" : "2023-07-03T00:13:06.066-04:00"
 		}
 	},
 	"editEmail" : {
@@ -174,15 +133,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2023-07-02T17:22:37.268-04:00"
+			"dateAndTimeString" : "2023-07-03T00:13:06.066-04:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Bloc Book"
+		"title" : "animation example"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "88328562-e9bb-0d00-be15-e6c10386de54"
+		"uuid" : "48e6191d-efbb-0d00-8ce0-8fd00386de54"
 	}
 }

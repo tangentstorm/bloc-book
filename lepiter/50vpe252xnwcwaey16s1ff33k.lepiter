@@ -1,0 +1,150 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-07-03T02:01:55.871-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-07-03T02:02:20.286-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "GIUJpPC7DQCSpFF8A4beVA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "tangentstorm — Yesterday at 4:01 PM\r\nAre there any papers that talk about the basic design of Bloc?\r\ntudor girba — Yesterday at 4:06 PM\r\nThis is an initial broad explanation of the one rendering tree idea: https://medium.com/feenk/one-rendering-tree-918eae49bcff\r\nWhat specifically are you looking for?\r\nMedium\r\nOne rendering tree\r\nA peak behind the graphical stack of Glamorous Toolkit\r\ntangentstorm — Yesterday at 4:09 PM\r\nThanks. I don't know what I'm looking for. I found this paper about the Moldable Editor from a comment you made on the #bloc channel in the pharo server (i'm reading through the archives) and just wondered if any other papers existed about bloc itself. (Or I guess anything in GT)\r\nsuch as.. implementing mondrian in glamorous toolkit: https://scg.unibe.ch/archive/projects/Rohr21a.pdf\r\ntangentstorm — Yesterday at 4:17 PM\r\nincreasing steakeholder engagement with object cards: https://scg.unibe.ch/archive/projects/Sell22a.pdf  (would not have expected this to be about GT but apparently it is)"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-07-03T02:02:35.592-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-07-03T02:02:35.592-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "QJ1npvC7DQCStp+QA4beVA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "tudor girba — Today at 1:32 AM\r\n@tangentstorm Here are some of the published papers about the early work that validated the concept and was embodied in the first generation of GT:"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-07-03T02:01:32.858-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-07-03T02:02:35.594-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "kF6qovC7DQCSozdbA4beVA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Inspector\r\nhttp://scg.unibe.ch/archive/papers/Chis14a-MoldableInspector.pdf\r\nhttp://scg.unibe.ch/archive/papers/Chis15a-MoldableInspector.pdf\r\n\r\nDebugger\r\nhttp://scg.unibe.ch/archive/papers/Chis14b-MoldableDebugger.pdf\r\nhttp://scg.unibe.ch/archive/papers/Chis15c-PracticalDomainSpecificDebuggers.pdf\r\n\r\nSpotter\r\nhttp://scg.unibe.ch/archive/papers/Chis16a-MoldableContextAwareSearchingWithSpotter.pdf\r\nhttps://scg.unibe.ch/archive/papers/Kube15a-OnUnderstandingHowDevelopersUseTheSpotterSearchTool.pdf\r\n\r\nOverall\r\nhttps://scg.unibe.ch/archive/papers/Girb15b-PervasiveSoftwareVisualizations.pdf\r\nhttps://scg.unibe.ch/archive/phd/chis-phd.pdf"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2023-07-03T02:01:45.922-04:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2023-07-03T02:01:45.922-04:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "papers related to all this"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "7010aaa2-f0bb-0d00-92a2-4eac0386de54"
+	}
+}

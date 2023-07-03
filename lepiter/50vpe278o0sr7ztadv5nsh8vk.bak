@@ -1,0 +1,255 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-07-03T02:37:11.873-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-07-03T02:38:32.881-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "6CUpIvG7DQCS70rjA4beVA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "example from tudor in #graphics-how-to"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-07-03T02:38:33.233-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-07-03T02:38:33.739-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "gJYCJ/G7DQCT6Q2JA4beVA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "tudor girba — 11/04/2021 4:39 PM\r\n@lurker every node and edge in a mondrian graph end up being Bloc elements. You want to be able to react when a node is hovered. The example of Alex above shows that. The next thing you want is to find the connected nodes. This is achieved by asking the element for the graph context. This is one solution: "
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-07-03T02:37:19.307-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-07-03T02:37:20.732-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "EJGaIvG7DQCS8brHA4beVA=="
+				},
+				"code" : "m := GtMondrian new.\nm nodes \n    stencil: [:x | \n        BrLabel new\n            text: x asString;\n            aptitude: BrGlamorousLabelAptitude +(BrStyleCommonAptitude new\n                default: [ :aStyle | \n                    aStyle \n                        background: (Color gray alpha: 0.4) ];\n                hovered: [ :aStyle | \n                    aStyle \n                        background: (Color red alpha: 0.6);\n                        do: [:anElement | \n                            anElement graph nodesAlongOutgoingEdges do: [:connectedElement |\n                                connectedElement background: (Color blue alpha: 0.6). ]\n                         ]\n                         after: [:anElement | \n                             anElement graph nodesAlongOutgoingEdges do: [:connectedElement |\n                                connectedElement background: (Color gray alpha: 0.4)] ]];\n                pressed: [ :aStyle | aStyle background: (Color gray alpha: 0.8)]) ];\n    with: (1 to: 100).\nm edges connectFrom: [:x | x // 2].\nm layout tree.\nm "
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-07-03T02:38:55.727-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-07-03T02:39:02.981-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "sNFZKPG7DQCT8j88A4beVA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "The important part to keep in mind is that default:, hovered: and pressed: blocks are declarative, not callbacks. So, to add callback abilities you'd need the extra do: block. \r\nNow, we see here that we have to define the traversal of the outgoing edges twice: once for adding, once for removing color. Not so nice, is it. Sooo ..."
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-07-03T02:37:51.283-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-07-03T02:37:52.793-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "UHuCJPG7DQCS+nSKA4beVA=="
+				},
+				"code" : "m := GtMondrian new.\nm nodes \n    stencil: [:x | \n        BrLabel new\n            text: x asString;\n            aptitude: BrGlamorousLabelAptitude +(BrStyleCommonAptitude new\n                default: [ :aStyle | \n                    aStyle \n                        background: (Color gray alpha: 0.4) ];\n                hovered: [ :aStyle | \n                    aStyle \n                        background: (Color red alpha: 0.6);\n                        do: [:anElement | \n                            anElement graph nodesAlongOutgoingEdges do: [:connectedElement |\n                                connectedElement background: (Color blue alpha: 0.6). ]\n                         ]\n                         after: [:anElement | \n                             anElement graph nodesAlongOutgoingEdges do: [:connectedElement |\n                                connectedElement background: (Color gray alpha: 0.4)] ]];\n                pressed: [ :aStyle | aStyle background: (Color gray alpha: 0.8)]) ];\n    with: (1 to: 100).\nm edges connectFrom: [:x | x // 2].\nm layout tree.\nm "
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-07-03T02:37:03.481-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-07-03T02:37:03.481-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "qBipIfG7DQCS7iHpA4beVA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : ""
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2023-07-03T02:37:11.864-04:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2023-07-03T02:38:07.331-04:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "highlight immediate children of current node"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "30afa821-f1bb-0d00-92ed-44f40386de54"
+	}
+}

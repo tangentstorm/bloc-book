@@ -8,45 +8,7 @@
 				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
-					"items" : [
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-07-02T17:23:49.257-04:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-07-02T17:25:17.204-04:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "QGshZ+m7DQC+hCLTA4beVA=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "[[Foundations of Bloc]] [[drawing an image in bloc]] [[RSAnimationExamples port]] [[Line Plots]] [[Unicode Issues]]"
-						}
-					]
+					"items" : [ ]
 				},
 				"createEmail" : {
 					"__type" : "email",
@@ -56,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-07-02T17:25:17.201-04:00"
+						"dateAndTimeString" : "2023-07-03T02:45:59.19-04:00"
 					}
 				},
 				"editEmail" : {
@@ -67,17 +29,51 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-07-02T17:25:17.201-04:00"
+						"dateAndTimeString" : "2023-07-03T02:46:06.207-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "mFJfbOm7DQC/DoY8A4beVA=="
+					"uidString" : "ePFkP/G7DQCUd7XSA4beVA=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[Bloc Notes]]"
+				"string" : "Andrei Chis — 03/19/2022 3:17 PM\r\n@haaaaah  Regarding the zoom, this was a basic experiment we did a while ago"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-07-03T02:44:02.589-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-07-03T02:44:15.284-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "SC2kOvG7DQCUAQTWA4beVA=="
+				},
+				"code" : "GtArrowheadWith"
 			},
 			{
 				"__type" : "textSnippet",
@@ -93,7 +89,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-07-02T17:40:22.612-04:00"
+						"dateAndTimeString" : "2023-07-03T02:43:39.102-04:00"
 					}
 				},
 				"editEmail" : {
@@ -104,54 +100,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-07-02T17:40:22.612-04:00"
+						"dateAndTimeString" : "2023-07-03T13:20:00.373-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "INRWoum7DQCByxZ1A4beVA=="
+					"uidString" : "MMs9OfG7DQCUAO2lA4beVA=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[Brick Notes]]"
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-07-02T17:22:47.822-04:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-07-02T17:40:22.619-04:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "sAJ4Y+m7DQC+I8zhA4beVA=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "[[Brick and Bloc]][[How Do Context Menus Work?]]"
+				"string" : "(the idea was you have a little tiny diagram and you zoom into it and you can see a whole gt  -mjw"
 			}
 		]
 	},
@@ -163,7 +122,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2023-07-02T17:22:37.268-04:00"
+			"dateAndTimeString" : "2023-07-03T02:43:57.393-04:00"
 		}
 	},
 	"editEmail" : {
@@ -174,15 +133,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2023-07-02T17:22:37.268-04:00"
+			"dateAndTimeString" : "2023-07-03T02:43:57.393-04:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Bloc Book"
+		"title" : "zoom into an embedded world"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "88328562-e9bb-0d00-be15-e6c10386de54"
+		"uuid" : "107d3d39-f1bb-0d00-93ff-cf680386de54"
 	}
 }

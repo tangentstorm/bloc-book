@@ -1,0 +1,147 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-07-03T02:31:57.104-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-07-03T02:31:57.104-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "gCdmD/G7DQCSz9yFA4beVA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : ""
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-07-03T02:32:04.179-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-07-03T02:32:05.803-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "aBTSD/G7DQCS0cTRA4beVA=="
+				},
+				"code" : "points := OrderedCollection new.\r\nalreadyDrawn := 0.\r\nanElement := BlElement new\r\n\tconstraintsDo: [:c|\r\n\t\tc vertical matchParent.\r\n\t\tc horizontal matchParent.].\r\nanElement addChild: (BlElement new);\r\nwhen: BlDragStartEvent do: [:anEvent| | currentTask |\r\n\tanEvent consumed: true. currentTask := task value.\r\n\tanElement userData at: #currentTask put: currentTask. anElement enqueueTask: currentTask.\r\n\tpoints add:{anEvent localPosition. OrderedCollection new}];\r\nwhen: BlDragEvent do: [:anEvent|\r\n\tanEvent consumed: true. points last second add: anEvent localPosition.];\r\nwhen: BlDragEndEvent do: [:anEvent|\r\n\tanEvent consumed: true. anElement dequeueTask: (anElement userData at: #currentTask).\r\n\tpoints last second add: anEvent localPosition].\r\ntask := [ BlRepeatedTaskAction new\r\n\t\t\tdelay: 0 milliSeconds;\r\n\t\t\taction: [\r\n\t\t\t\t| justDrew newElement |\r\n\t\t\t\t(points sum: [:each| each second size]) ~= alreadyDrawn ifTrue: [\r\n\t\t\t\t\tjustDrew := 0.\r\n\t\t\t\t\tnewElement := BlSpartaElement new\r\n\t\t\t\t\t\trendering: [ :aCanvas :aSpartaElement |\r\n\t\t\t\t\t\t\t| aPath spartaPathBuilder spartaSTrokeBuilder |\r\n\t\t\t\t\t\t\tspartaPathBuilder := aCanvas path.\r\n\t\t\t\t\t\t\tpoints do: [:lineSegment|\r\n\t\t\t\t\t\t\t\tspartaPathBuilder moveTo: lineSegment first.\r\n\t\t\t\t\t\t\t\tlineSegment second do: [:point|\r\n\t\t\t\t\t\t\t\t\tspartaPathBuilder lineTo: point.\r\n\t\t\t\t\t\t\t\t\tjustDrew := justDrew + 1.\r\n\t\t\t\t\t\t\t\t].\r\n\t\t\t\t\t\t\t].\r\n\t\t\t\t\t\t\taPath := spartaPathBuilder finish.\r\n\t\t\t\t\t\t\tspartaSTrokeBuilder := aCanvas stroke.\r\n\t\t\t\t\t\t\tspartaSTrokeBuilder paint: Color black;\r\n\t\t\t\t\t\t\tpath: aPath;\r\n\t\t\t\t\t\t\twidth: 2;\r\n\t\t\t\t\t\t\tdraw.\r\n\t\t\t\t\t\t\t].\r\n\t\t\t\t\talreadyDrawn := justDrew.\r\n\t\t\t\t\tanElement replaceChild: anElement children first with: newElement.\r\n\t\t\t\t\t]\t\r\n\t\t\t].\r\n\t\t].\r\nanElement"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-07-03T02:31:51.907-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-07-03T02:31:51.907-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "uNoWD/G7DQCSzjQmA4beVA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : ""
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2023-07-03T02:31:57.09-04:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2023-07-03T02:31:57.09-04:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "GtDraw Example"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "8090160f-f1bb-0d00-92cd-e7960386de54"
+	}
+}
