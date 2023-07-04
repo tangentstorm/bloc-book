@@ -1,1 +1,1 @@
-## Installation```Metacello new	repository: '';	baseline: 'BlocBook';	load```## Load Lepiter				After installing with Metacello, you will be able to execute```#BaselineOfBlocBook asClass loadLepiter```
+## Installation```Metacello new	repository: 'github://tangentstorm/bloc-book:main/src';	baseline: 'BlocBook';	load```## Load Lepiter				After installing with Metacello, you will be able to execute```#BaselineOfBlocBook asClass loadLepiter```
