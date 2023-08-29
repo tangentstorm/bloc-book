@@ -5,7 +5,7 @@
 		"__type" : "snippets",
 		"items" : [
 			{
-				"__type" : "textSnippet",
+				"__type" : "pharoSnippet",
 				"children" : {
 					"__type" : "snippets",
 					"items" : [ ]
@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-07-02T23:47:21.21-04:00"
+						"dateAndTimeString" : "2023-07-21T15:40:01.736-04:00"
 					}
 				},
 				"editEmail" : {
@@ -29,17 +29,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-07-02T23:53:25.39-04:00"
+						"dateAndTimeString" : "2023-07-21T15:54:44.08-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "kPi/wu67DQCIFwJcA4beVA=="
+					"uidString" : "cBntKma9DQCKqahwBGX2iw=="
 				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "{{gtPackage:BlocPac-Geometry}} | {{gtPackage:BlocPac-Geometry-Examples}}"
+				"code" : "BlBezierElementExamples new curveWithAnchors"
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -55,7 +52,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-07-02T23:47:25.948-04:00"
+						"dateAndTimeString" : "2023-07-21T15:54:44.911-04:00"
 					}
 				},
 				"editEmail" : {
@@ -66,14 +63,51 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-08-10T22:22:07.636-04:00"
+						"dateAndTimeString" : "2023-07-21T15:56:37.714-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "eEAIw+67DQCIGaWpA4beVA=="
+					"uidString" : "mE+RX2a9DQCLFqQ0BGX2iw=="
 				},
-				"code" : "root := GsScene new.\r\ncircle := BlEllipseElement new\r\n    minorRadius: 150;\r\n    majorRadius: 150;\r\n    background: Color gray.\rroot addChild: circle.\r\rcircle  relocate: 150@150.\rroot\r\n\r\r\n"
+				"code" : "BlArrowheadExamples new curveWithDifferentArrowheads"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-07-21T15:39:50.287-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-07-21T15:39:50.287-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "mG4+Kma9DQCKpjIXBGX2iw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : ""
 			}
 		]
 	},
@@ -85,7 +119,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2023-07-02T23:51:00.394-04:00"
+			"dateAndTimeString" : "2023-07-21T15:39:55.86-04:00"
 		}
 	},
 	"editEmail" : {
@@ -96,15 +130,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2023-07-02T23:51:00.394-04:00"
+			"dateAndTimeString" : "2023-07-21T15:57:25.282-04:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Geometry Elements"
+		"title" : "Curves and Arrowheads"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "70aabfc2-eebb-0d00-8816-dd550386de54"
+		"uuid" : "08093e2a-66bd-0d00-8aa5-3d300465f68b"
 	}
 }

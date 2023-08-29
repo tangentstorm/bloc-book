@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-05-22T21:13:11.702-04:00"
+						"dateAndTimeString" : "2023-08-09T17:57:53.806-04:00"
 					}
 				},
 				"editEmail" : {
@@ -29,20 +29,20 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-05-22T21:13:11.702-04:00"
+						"dateAndTimeString" : "2023-08-09T18:00:25.826-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "8E3x07O4DQC9/HDPDMV5EQ=="
+					"uidString" : "sAb3Tua+DQCMYhSHAuyuDw=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : ""
+				"string" : "Elements in bloc don't actually have a size until they're added to a space (or to some other element that has a space). That's because each element lays out its children from the top of the scene graph down."
 			},
 			{
-				"__type" : "textSnippet",
+				"__type" : "pharoSnippet",
 				"children" : {
 					"__type" : "snippets",
 					"items" : [ ]
@@ -55,7 +55,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-05-22T21:13:04.526-04:00"
+						"dateAndTimeString" : "2023-08-09T17:45:49.698-04:00"
 					}
 				},
 				"editEmail" : {
@@ -66,17 +66,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-05-22T21:13:29.136-04:00"
+						"dateAndTimeString" : "2023-08-09T18:00:05.334-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "sM6D07O4DQC9+zAbDMV5EQ=="
+					"uidString" : "0APOI+a+DQCKFlGGAuyuDw=="
 				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "How do  I close an inspected example in a lepiter page?"
+				"code" : "e := BlElement new size: 32@32.\rself assert: e size = (0@0)"
 			}
 		]
 	},
@@ -88,7 +85,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2023-05-22T21:13:04.381-04:00"
+			"dateAndTimeString" : "2023-08-09T17:46:01.169-04:00"
 		}
 	},
 	"editEmail" : {
@@ -99,15 +96,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2023-05-22T21:13:11.693-04:00"
+			"dateAndTimeString" : "2023-08-09T17:46:01.169-04:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "GT Questions"
+		"title" : "Size Inquiries"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "489881d3-b3b8-0d00-bdfa-c7b40cc57911"
+		"uuid" : "e8ffcd23-e6be-0d00-8a15-f02d02ecae0f"
 	}
 }

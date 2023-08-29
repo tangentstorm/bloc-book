@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-07-02T23:47:21.21-04:00"
+						"dateAndTimeString" : "2023-07-20T11:01:01.493-04:00"
 					}
 				},
 				"editEmail" : {
@@ -29,20 +29,20 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-07-02T23:53:25.39-04:00"
+						"dateAndTimeString" : "2023-07-20T11:05:39.279-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "kPi/wu67DQCIFwJcA4beVA=="
+					"uidString" : "COtJJ069DQC4chuwBnBM/A=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "{{gtPackage:BlocPac-Geometry}} | {{gtPackage:BlocPac-Geometry-Examples}}"
+				"string" : "{{gtClass:GtPager}}in package {{gtPackage:GToolkit-Pager}}"
 			},
 			{
-				"__type" : "pharoSnippet",
+				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
 					"items" : [ ]
@@ -55,7 +55,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-07-02T23:47:25.948-04:00"
+						"dateAndTimeString" : "2023-07-20T11:06:33.377-04:00"
 					}
 				},
 				"editEmail" : {
@@ -66,14 +66,54 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-08-10T22:22:07.636-04:00"
+						"dateAndTimeString" : "2023-07-20T11:06:44.339-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "eEAIw+67DQCIGaWpA4beVA=="
+					"uidString" : "AA0SO069DQC5yDcVBnBM/A=="
 				},
-				"code" : "root := GsScene new.\r\ncircle := BlEllipseElement new\r\n    minorRadius: 150;\r\n    majorRadius: 150;\r\n    background: Color gray.\rroot addChild: circle.\r\rcircle  relocate: 150@150.\rroot\r\n\r\r\n"
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "{{gtClass:BrInfinitePagerElement}}"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-07-20T11:11:43.846-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-07-20T11:11:43.846-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "cPLeNk69DQC5JQK4BnBM/A=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : ""
 			}
 		]
 	},
@@ -85,7 +125,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2023-07-02T23:51:00.394-04:00"
+			"dateAndTimeString" : "2023-07-20T11:01:01.456-04:00"
 		}
 	},
 	"editEmail" : {
@@ -96,15 +136,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2023-07-02T23:51:00.394-04:00"
+			"dateAndTimeString" : "2023-07-20T11:01:01.456-04:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Geometry Elements"
+		"title" : "Understanding Phlow"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "70aabfc2-eebb-0d00-8816-dd550386de54"
+		"uuid" : "98564927-4ebd-0d00-b871-837f06704cfc"
 	}
 }

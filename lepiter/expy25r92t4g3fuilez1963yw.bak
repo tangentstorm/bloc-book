@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-06-23T08:02:06.723-04:00"
+						"dateAndTimeString" : "2023-07-20T11:01:01.493-04:00"
 					}
 				},
 				"editEmail" : {
@@ -29,17 +29,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-06-23T08:07:43.349-04:00"
+						"dateAndTimeString" : "2023-07-20T11:05:39.279-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "uDO7gSy7DQCeubYvADhPUQ=="
+					"uidString" : "COtJJ069DQC4chuwBnBM/A=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "{{gtMethod:GtDiagrammerElement>>initialize}}"
+				"string" : "{{gtClass:GtPager}}in package {{gtPackage:GToolkit-Pager}}"
 			},
 			{
 				"__type" : "textSnippet",
@@ -55,7 +55,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-06-23T08:07:28.673-04:00"
+						"dateAndTimeString" : "2023-07-20T11:06:33.377-04:00"
 					}
 				},
 				"editEmail" : {
@@ -66,20 +66,20 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-06-23T08:07:36.413-04:00"
+						"dateAndTimeString" : "2023-07-20T11:06:44.339-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "6MTrlCy7DQChKFSxADhPUQ=="
+					"uidString" : "AA0SO069DQC5yDcVBnBM/A=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "{{gtMethod:GtDiagrammerElement>>initializeTools}}"
+				"string" : "{{gtClass:BrInfinitePagerElement}}"
 			},
 			{
-				"__type" : "pharoSnippet",
+				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
 					"items" : [ ]
@@ -92,7 +92,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-08-10T19:51:43.166-04:00"
+						"dateAndTimeString" : "2023-07-20T11:05:22.01-04:00"
 					}
 				},
 				"editEmail" : {
@@ -103,17 +103,20 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-08-10T19:51:43.166-04:00"
+						"dateAndTimeString" : "2023-07-20T11:05:22.01-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "SCbeA/y+DQCuyz/gC5idZg=="
+					"uidString" : "qBPRNk69DQC5GSsQBnBM/A=="
 				},
-				"code" : "dg := GtDiagrammerElement new."
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : ""
 			},
 			{
-				"__type" : "pharoSnippet",
+				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
 					"items" : [ ]
@@ -126,7 +129,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-06-23T08:04:06.901-04:00"
+						"dateAndTimeString" : "2023-07-20T11:07:28.729-04:00"
 					}
 				},
 				"editEmail" : {
@@ -137,17 +140,20 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-08-10T19:51:43.193-04:00"
+						"dateAndTimeString" : "2023-07-20T11:07:28.729-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "IPXkiCy7DQCffg/SADhPUQ=="
+					"uidString" : "4CHbNk69DQC5H280BnBM/A=="
 				},
-				"code" : "dg canvas addChild: (GtFigure new) .\rdg\r"
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : ""
 			},
 			{
-				"__type" : "pharoSnippet",
+				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
 					"items" : [ ]
@@ -160,7 +166,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-06-23T08:02:28.065-04:00"
+						"dateAndTimeString" : "2023-07-20T11:05:22.919-04:00"
 					}
 				},
 				"editEmail" : {
@@ -171,14 +177,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-06-23T14:35:21.565-04:00"
+						"dateAndTimeString" : "2023-07-20T11:11:17.861-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "GNMAgyy7DQCeu5uhADhPUQ=="
+					"uidString" : "cPLeNk69DQC5JQK4BnBM/A=="
 				},
-				"code" : "PileUpApp"
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "[[Understanding anything]]"
 			}
 		]
 	},
@@ -190,7 +199,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2023-06-23T08:02:21.639-04:00"
+			"dateAndTimeString" : "2023-07-20T11:01:01.456-04:00"
 		}
 	},
 	"editEmail" : {
@@ -201,15 +210,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2023-06-23T08:02:21.639-04:00"
+			"dateAndTimeString" : "2023-07-20T11:01:01.456-04:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "GTDiagrammer Exploration"
+		"title" : "Understanding Phlow"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "40caba81-2cbb-0d00-9eb8-0ed000384f51"
+		"uuid" : "98564927-4ebd-0d00-b871-837f06704cfc"
 	}
 }

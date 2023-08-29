@@ -66,14 +66,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-07-02T23:52:06.488-04:00"
+						"dateAndTimeString" : "2023-08-10T22:22:45.92-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "eEAIw+67DQCIGaWpA4beVA=="
 				},
-				"code" : "root := BlElement new size: 500@500.\r\ncircle := BlEllipseElement new\r\n    minorRadius: 150;\r\n    majorRadius: 150;\r\n    background: Color gray.\rroot addChild: circle.\r\rcircle defaultCenterAnchor position: 250@250.\rroot\r\n\r\r\n"
+				"code" : "root := GsScene new\r  addChild: (circle := BlEllipseElement new\r\n    minorRadius: 150;\r\n    majorRadius: 150;\r\n    background: Color gray;\r    relocate: 150@150).\r\r\rroot\r\n\r\r\n"
 			}
 		]
 	},
